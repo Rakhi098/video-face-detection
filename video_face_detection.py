@@ -2,7 +2,7 @@ import cv2 as cv
 # import numpy as np
 from matplotlib import pyplot as plt
 
-cap = cv.VideoCapture('next.mp4')
+cap = cv.VideoCapture('video.mp4')
 
 ret, frame1 = cap.read()
 _, frame2 = cap.read()
